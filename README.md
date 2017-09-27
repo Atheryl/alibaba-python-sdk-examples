@@ -41,10 +41,17 @@ Once logged in, ALL THE SCREENS
 
 ### Install Alibaba Cloud Python SDK(s)
 
-You can install each SDK via pip using the following command:
+You need to install the **aliyuncli** first in order to use the Python SDK from command line
 ```bash
-$ pip install [ sdk-name ]
+$ sudo pip install aliyuncli
+Successfully installed aliyuncli-2.1.9 colorama-0.3.3 jmespath-0.7.1
 ```
+
+Now you can install each SDK via pip using the following command:
+```bash
+$ sudo pip install [ sdk-name ]
+```
+
 #### [ sdk-name ] used in this repository
 * aliyun-python-sdk-ecs
 
