@@ -27,13 +27,13 @@ You can refer to [the official page](https://pip.pypa.io/en/stable/installing/ "
 
 ### Create SDK Key on Alibaba Cloud
 
-##### Notes
+#### Notes
 
 This repository is only for the people using the Public Cloud of Alibaba Cloud. For further assistance on the Private Cloud, please refer to the [official documentation](https://www.alibabacloud.com/help/zh/doc-detail/43039.htm "公共云版")
 
 We will create the **access key ID** and **access key secret** necessary to call the Open API used by Alibaba Cloud SDK.
 
-##### Access key creation
+#### Access key creation
 
 Visit your Alibaba Cloud console at this URL: https://home.console.aliyun.com/
 
@@ -45,7 +45,7 @@ You can install each SDK via pip using the following command:
 ```bash
 $ pip install [ sdk-name ]
 ```
-##### SDK(s) used in this repository
+#### SDK(s) used in this repository
 * aliyun-python-sdk-ecs
 
 You can refer to [the official page](https://develop.aliyun.com/tools/sdk?#/python "Alibaba Cloud Python SDK's Homepage") for other SDK(s)
