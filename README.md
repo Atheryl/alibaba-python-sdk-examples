@@ -14,7 +14,9 @@ Saving to: ‘get-pip.py’
 
 $ sudo python get-pip.py
 Collecting pip
+...
 Installing collected packages: pip, wheel
+...
 Successfully installed pip-9.0.1 wheel-0.30.0
 
 $ pip -V
