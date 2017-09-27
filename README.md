@@ -64,4 +64,38 @@ You can refer to [the official page](https://develop.aliyun.com/tools/sdk?#/pyth
 
 ### Configure Alibaba Cloud Python SDK(s)
 
+After creating the access key and access secret, you may configure aliyuncli: :
 
+```bash
+$ aliyuncli configure
+Aliyun Access Key ID [None]: <Your aliyun access key id>
+Aliyun Access Key Secret [None]: <Your aliyun access key secret>
+Default Region Id [None]: <your preferred region>
+Default output format [None]: <your proferred output-format>
+```
+
+#### Regions Available:
+* cn-qingdao 
+* cn-beijing
+* cn-zhangjiakou
+* cn-hangzhou
+* cn-shanghai
+* cn-shenzhen
+* cn-hongkong
+* ap-northeast-1
+* ap-southeast-1
+* ap-southeast-2
+* us-east-1
+* us-west-1
+* me-east-1
+* eu-central-1
+
+Alternatively you can query them later on with the following command:
+```bash
+$ aliyuncli ecs DescribeRegions --output json --filter Regions.Region[*].RegionId
+```
+
+#### Output Format Available:
+* table
+* JSON
+* text
