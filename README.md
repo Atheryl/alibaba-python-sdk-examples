@@ -45,7 +45,7 @@ You can install each SDK via pip using the following command:
 ```bash
 $ pip install [ sdk-name ]
 ```
-#### SDK(s) used in this repository
+#### [ sdk-name ] used in this repository
 * aliyun-python-sdk-ecs
 
 You can refer to [the official page](https://develop.aliyun.com/tools/sdk?#/python "Alibaba Cloud Python SDK's Homepage") for other SDK(s)
