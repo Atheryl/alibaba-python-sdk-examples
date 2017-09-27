@@ -44,6 +44,10 @@ Once logged in, ALL THE SCREENS
 You need to install the **aliyuncli** first in order to use the Python SDK from command line
 ```bash
 $ sudo pip install aliyuncli
+Collecting aliyuncli
+...
+Installing collected packages: colorama, jmespath, aliyuncli
+...
 Successfully installed aliyuncli-2.1.9 colorama-0.3.3 jmespath-0.7.1
 ```
 
