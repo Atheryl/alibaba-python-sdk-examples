@@ -26,4 +26,14 @@ You can refer to [the official page](https://pip.pypa.io/en/stable/installing/ "
 ### Create SDK Key on Alibaba Cloud
 
 
-### Install Alibaba CLoud Python SDK
+### Install Alibaba Cloud Python SDK(s)
+
+You can install each SDK via pip using the following command:
+```bash
+$ pip install [ sdk-name ]
+```
+##### SDK(s) used in this repository
+* aliyun-python-sdk-ecs
+
+You can refer to [the official page](https://develop.aliyun.com/tools/sdk?#/python "Alibaba Cloud Python SDK's Homepage") for other SDK(s)
+
